@@ -32,7 +32,7 @@ const Recipes = ({
               >
                 <img src={pencil} className="edit" alt="Edit" />
               </div>
-              <img src={recipe.image} className="Recipe__image" />
+              <img src={recipe.image} className="Recipe__image" alt="" />
             </div>
             <div className="Recipes__card-content">
               <div className="Heading">{recipe.name}</div>
