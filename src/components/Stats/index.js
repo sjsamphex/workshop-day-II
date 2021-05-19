@@ -8,6 +8,9 @@ const Stats = ({ stats }) => (
     <div className="confined">
       {stats.map(({ label, value, icon, histogram }) => (
         <div
+          aria-live="polite"
+          aria-relevant="text"
+          aria-atomic="true"
           className={`Stat ${histogram ? 'with-chart' : ''}`}
           key={`${label}-${value}`}
         >

@@ -118,7 +118,7 @@ export default class RecipeModal extends Component {
               <div className="RecipeModal__global">
                 <div className="dqpl-label">Rate the yumminess (0 - 50)</div>
                 <TextField
-                  label=" "
+                  label=""
                   defaultValue={`${recipe.yumminess}`}
                   error={errors.yumminess ? 'Error!' : null}
                   type="number"
